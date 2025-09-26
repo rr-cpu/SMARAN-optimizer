@@ -1,5 +1,5 @@
 # SMARAN-optimizer
-# SMARAN-optimizer
+
 
 This repository contains the implementation of the SMARAN optimizer, a novel optimization algorithm designed for efficient training of deep learning models. It includes modular components for configuration, dataset handling, model definition, training routines, and evaluation utilities.
 
