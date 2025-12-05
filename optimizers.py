@@ -91,8 +91,7 @@ class SMARAN(optim.Optimizer):
     def step(self, closure=None):
         self.T=self.T+1
         loss = None
-        if closure is not None:
-            loss = closure()
+       
 
         for group in self.param_groups:
             for p in group["params"]:
